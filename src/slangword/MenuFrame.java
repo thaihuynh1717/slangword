@@ -71,7 +71,6 @@ public class MenuFrame extends JFrame implements ActionListener {
 		b8.setFocusable(false);
 
 		JPanel panelCenter = new JPanel();
-		// panelCenter.setBackground(Color.gray);
 		panelCenter.setLayout(new GridLayout(3, 3, 10, 10));
 		panelCenter.add(b1);
 		panelCenter.add(b2);
@@ -115,7 +114,6 @@ public class MenuFrame extends JFrame implements ActionListener {
 				e1.printStackTrace();
 			}
 		} else if (e.getSource() == b2) {
-			// System.out.println("Change Actitity");
 			this.dispose();
 			try {
 				new FindSWFrame();

@@ -44,16 +44,16 @@ public class QuestionFrame extends JFrame implements ActionListener {
 		// A Grid Answers
 		b1 = new JButton("A." + s[1]);
 		b1.addActionListener(this);
-		b1.setFont(new Font("Lucida Handwriting", Font.PLAIN, 14));
+		b1.setFont(new Font("Lucid Handwriting", Font.PLAIN, 14));
 		b2 = new JButton("B." + s[2]);
 		b2.addActionListener(this);
-		b2.setFont(new Font("Lucida Handwriting", Font.PLAIN, 14));
+		b2.setFont(new Font("Lucid Handwriting", Font.PLAIN, 14));
 		b3 = new JButton("C." + s[3]);
 		b3.addActionListener(this);
-		b3.setFont(new Font("Lucida Handwriting", Font.PLAIN, 14));
+		b3.setFont(new Font("Lucid Handwriting", Font.PLAIN, 14));
 		b4 = new JButton("D. " + s[4]);
 		b4.addActionListener(this);
-		b4.setFont(new Font("Lucida Handwriting", Font.PLAIN, 14));
+		b4.setFont(new Font("Lucid Handwriting", Font.PLAIN, 14));
 
 		JPanel panelCenter = new JPanel();
 		panelCenter.setLayout(new GridLayout(2, 2, 10, 10));
