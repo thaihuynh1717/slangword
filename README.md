@@ -1,4 +1,4 @@
-# Slang Word áp dụng Java Using Swing và Java Collections
+# Slang Word áp dụng Java Swing và Java Collections
 
 - [1. Mô tả đồ chức năng đồ án](#1-mô-tả-đồ-chức-năng-đồ-án)
 - [2. Yêu cầu chung](#3-yêu-cầu-chung)
