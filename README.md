@@ -6,7 +6,7 @@
 - [4. Hướng dẵn chạy mã nguồn](#2-hướng-dẵn-chạy-mã-nguồn)
 - [Tham khảo](#tham-khảo)
 
-## 1. Mô tả đồ chức năng đồ án?
+## 1. Mô tả đồ án?
 
 ```
 Mục tiêu tài liệu tập trung vào các chủ đề: Java IO, Hướng đối tượng, Generic và
