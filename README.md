@@ -1,9 +1,9 @@
-# Slang Word Java Using Swing and Java Collections
+# Slang Word áp dụng Java Using Swing và Java Collections
 
 - [1. Mô tả đồ chức năng đồ án](#1-mô-tả-đồ-chức-năng-đồ-án)
-- [3. Yêu cầu chung](#3-yêu-cầu-chung)
-- [4. Các chức năng](#4-các-chức-năng)
-- [2. Hướng dẵn chạy mã nguồn](#2-hướng-dẵn-chạy-mã-nguồn)
+- [2. Yêu cầu chung](#3-yêu-cầu-chung)
+- [3. Các chức năng](#4-các-chức-năng)
+- [4. Hướng dẵn chạy mã nguồn](#2-hướng-dẵn-chạy-mã-nguồn)
 - [Tham khảo](#tham-khảo)
 
 ## 1. Mô tả đồ chức năng đồ án?
@@ -14,7 +14,7 @@ Collections. Sinh viên xây dựng một ứng dụng Slang Dictionary. Ứng d
 Console/Swing/Java FX hỗ trợ các chức năng chính sau đây.
 ```
 
-## 3. Yêu cầu chung
+## 2. Yêu cầu chung
 
 ```
 1. Phải sử dụng Java IO, OOP, Collections. Ứng dụng có thể là Console, Swing hoặc
@@ -32,7 +32,7 @@ phải phân bố đều trong các ngày, tránh tình trạng toàn bộ các 
 cuối deadline.
 ```
 
-## 4. Các chức năng
+## 3. Các chức năng
 
 ```
 1. Chức năng tìm kiếm theo slang word.
@@ -52,7 +52,7 @@ mới.
 đáp án cho người dùng chọn.
 ```
 
-## 2. Hướng dẵn chạy mã nguồn?
+## 4. Hướng dẵn chạy mã nguồn?
 
 ```
 Để chạy mã nguồn điều đầu tiên là phải chuẩn bị đầy đủ các file text chứa dữ liệu
@@ -63,6 +63,10 @@ Sau đó dùng một trình biên dịch thích hợp và chạy
 ## Tham khảo
 
 ```
+Slide bài giảng của GVLT
+
+https://github.com/GitHubCodeForLife/Slang-Word---Java
+
 Java Swing Oracle: https://docs.oracle.com/javase/tutorial/uiswing/
 
 Java Point hướng dẫn: https://www.javatpoint.com/java-tutorial
