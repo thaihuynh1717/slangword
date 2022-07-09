@@ -1,6 +1,7 @@
 # Slang Word Java Using Swing and Java Collections
 
 - [1. Mô tả đồ chức năng đồ án](#1-mô-tả-đồ-chức-năng-đồ-án)
+- [3. Yêu cầu chung](#3-yêu-cầu-chung)
 - [2. Hướng dẵn chạy mã nguồn](#2-hướng-dẵn-chạy-mã-nguồn)
 - [Tham khảo](#tham-khảo)
 
@@ -10,6 +11,8 @@
 Mục tiêu tài liệu tập trung vào các chủ đề: Java IO, Hướng đối tượng, Generic và
 Collections. Sinh viên xây dựng một ứng dụng Slang Dictionary. Ứng dụng
 Console/Swing/Java FX hỗ trợ các chức năng chính sau đây.
+
+## 3. Yêu cầu chung
 Yêu cầu chung
 1. Phải sử dụng Java IO, OOP, Collections. Ứng dụng có thể là Console, Swing hoặc
 Java FX.
@@ -24,6 +27,8 @@ cần tổ chức (index) lại dữ liệu.
 kèm hình chụp các lần commit. Phải có ít nhất 10 commit, nếu ít hơn sẽ 0d. Các commits
 phải phân bố đều trong các ngày, tránh tình trạng toàn bộ các commit nằm trong 30 phút
 cuối deadline.
+
+```
 
 1. Chức năng tìm kiếm theo slang word.
 2. Chức năng tìm kiếm theo definition, hiển thị ra tất cả các slang words
