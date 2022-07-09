@@ -4,7 +4,7 @@
 - [2. Yêu cầu chung](#3-yêu-cầu-chung)
 - [3. Các chức năng](#4-các-chức-năng)
 - [4. Hướng dẵn chạy mã nguồn](#2-hướng-dẵn-chạy-mã-nguồn)
-- [Tham khảo](#tham-khảo)
+- [5. Tham khảo](#5-tham-khảo)
 
 ## 1. Mô tả đồ án?
 
@@ -60,12 +60,12 @@ mới.
 Sau đó dùng một trình biên dịch thích hợp và chạy
 ```
 
-## Tham khảo
+## 5. Tham khảo
 
 ```
 Slide bài giảng của GVLT
 
-https://github.com/GitHubCodeForLife/Slang-Word---Java
+Github source: https://github.com/GitHubCodeForLife/Slang-Word---Java
 
 Java Swing Oracle: https://docs.oracle.com/javase/tutorial/uiswing/
 
