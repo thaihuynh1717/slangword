@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -129,7 +129,7 @@ public class FindSWFrame extends JFrame implements ActionListener, TableModelLis
 		// TODO Auto-generated method stub
 		if (e.getSource() == btnFind) {
 			String key = textField.getText();
-			// System.out.println("a" + key + "a");
+			// // System.out.println("a" + key + "a");
 			if (key.isEmpty()) {
 				JOptionPane.showMessageDialog(this, "Please input slang word you want to find", "Inane error",
 						JOptionPane.ERROR_MESSAGE);
@@ -197,7 +197,7 @@ public class FindSWFrame extends JFrame implements ActionListener, TableModelLis
 		if (row == col && row == -1)
 			return;
 		String Data = (String) jt.getValueAt(row, col);
-		System.out.println("Table element selected is: " + row + col + " : " + Data);
+		// System.out.println("Table element selected is: " + row + col + " : " + Data);
 		if (col == 2) {
 			// edit meaning
 			slangword.set((String) jt.getValueAt(row, 1), result[row][2], (String) jt.getValueAt(row, 2));

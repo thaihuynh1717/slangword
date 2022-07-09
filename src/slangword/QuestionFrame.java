@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.awt.Color;
 import java.awt.Container;

@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 public class Main {
 
@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		new MenuFrame();
 		// String current = new java.io.File(".").getCanonicalPath();
-		// System.out.println("Current dir:" + current);
+		// // System.out.println("Current dir:" + current);
 	}
 
 }

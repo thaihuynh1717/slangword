@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -22,7 +22,7 @@ public class SlangWord {
 	private SlangWord() {
 		try {
 			String current = new java.io.File(".").getCanonicalPath();
-			System.out.println("Current dir:" + current);
+			// System.out.println("Current dir:" + current);
 			FILE_SLANGWORD = current + "\\" + FILE_SLANGWORD;
 			FILE_ORIGINAL_SLANGWORD = current + "\\" + FILE_ORIGINAL_SLANGWORD;
 			FILE_HISTORY = current + "\\" + FILE_HISTORY;
@@ -64,13 +64,13 @@ public class SlangWord {
 				}
 				stringBuilder.append("\n");
 			}
-			// System.out.println(stringBuilder.toString());
+			// // System.out.println(stringBuilder.toString());
 			printWriter.write(stringBuilder.toString());
 			printWriter.close();
 
 		} catch (Exception e) {
 			// TODO: handle exception
-			System.out.println(e);
+			// System.out.println(e);
 		}
 	}
 
@@ -94,10 +94,10 @@ public class SlangWord {
 				meaning = map.get(slag);
 			}
 			if (part[0].contains("|")) {
-				System.out.println(part[0]);
+				// System.out.println(part[0]);
 				String[] d = (part[0]).split("\\|");
 				for (int ii = 0; ii < d.length; ii++)
-					System.out.println(d[ii]);
+					// System.out.println(d[ii]);
 				Collections.addAll(meaning, d);
 				sizeMap += d.length - 1;
 			} else {
@@ -121,14 +121,14 @@ public class SlangWord {
 			s[i][1] = (String) slagList[index];
 			List<String> meaning = map.get(slagList[index]);
 			s[i][2] = meaning.get(0);
-			System.out.println(s[i][0] + "\t" + s[i][1] + "\t" + s[i][2]);
+			// System.out.println(s[i][0] + "\t" + s[i][1] + "\t" + s[i][2]);
 			for (int j = 1; j < meaning.size(); j++) {
 				if (i < sizeMap)
 					i++;
 				s[i][0] = String.valueOf(i);
 				s[i][1] = (String) slagList[index];
 				s[i][2] = meaning.get(j);
-				System.out.println(s[i][0] + "\t" + s[i][1] + "\t" + s[i][2]);
+				// System.out.println(s[i][0] + "\t" + s[i][1] + "\t" + s[i][2]);
 			}
 			index++;
 		}
@@ -150,12 +150,12 @@ public class SlangWord {
 	}
 
 	public void set(String slag, String oldValue, String newValue) {
-		System.out.println(oldValue + "\t" + newValue);
+		// System.out.println(oldValue + "\t" + newValue);
 		List<String> meaning = map.get(slag);
 		int index = meaning.indexOf(oldValue);
 		meaning.set(index, newValue);
 		this.saveFile(FILE_SLANGWORD);
-		System.out.println("Size of map: " + sizeMap);
+		// System.out.println("Size of map: " + sizeMap);
 	}
 
 	public void saveHistory(String slag, String meaning) throws Exception {
@@ -284,7 +284,7 @@ public class SlangWord {
 		String s[] = new String[2];
 		int index = 0;
 		for (String key : map.keySet()) {
-			// System.out.println(key);
+			// // System.out.println(key);
 			if (index == rand) {
 				s[0] = key;
 				s[1] = map.get(key).get(0);

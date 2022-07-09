@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -120,7 +120,7 @@ public class AddWordFrame extends JFrame implements ActionListener {
 						JOptionPane.ERROR_MESSAGE);
 				return;
 			}
-			System.out.println(slag + " = " + meaning);
+			// System.out.println(slag + " = " + meaning);
 
 			if (slangWord.checkSlang(slag)) {
 				// Duplicate or Overwrite

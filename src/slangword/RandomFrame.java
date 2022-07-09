@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -36,7 +36,7 @@ public class RandomFrame extends JFrame implements ActionListener {
 
 		// Slang word
 		String s[] = slangWord.random();
-//		System.out.println(s[0] + "\t" + s[1]);
+//		// System.out.println(s[0] + "\t" + s[1]);
 		JPanel slangPanel = new JPanel();
 		// JLabel slangLabel = new JLabel("Slang: :) \t Meaning: Happy");
 		JLabel lb1 = new JLabel("Slang: \t");

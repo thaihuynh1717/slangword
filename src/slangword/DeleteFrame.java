@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -127,7 +127,7 @@ public class DeleteFrame extends JFrame implements ActionListener, ListSelection
 			return;
 		String Data = (String) jt.getValueAt(row, 1);
 
-		System.out.println("Table element selected is: " + Data);
+		// System.out.println("Table element selected is: " + Data);
 		int n = JOptionPane.showConfirmDialog(this, "Would you like to delete this slang word?", "An Inane Question",
 				JOptionPane.YES_NO_OPTION);
 		if (n == 0) {

@@ -1,4 +1,4 @@
-package slang;
+package slangword;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -113,11 +113,11 @@ public class ListSWFrame extends JFrame implements ActionListener, TableModelLis
 		if (row == -1 || col == -1)
 			return;
 		String Data = (String) jt.getValueAt(row, col);
-		// System.out.println("Table element selected is: " + Data);
+		// // System.out.println("Table element selected is: " + Data);
 
 		if (col == 2) {
 			// edit meaning
-			System.out.println("Old SlangWord: \t" + row + "\t" + dataCopy[row][2]);
+			// System.out.println("Old SlangWord: \t" + row + "\t" + dataCopy[row][2]);
 			slangWord.set((String) jt.getValueAt(row, 1), dataCopy[row][2], (String) jt.getValueAt(row, 2));
 			JOptionPane.showMessageDialog(this, "Updated a row.");
 		}
