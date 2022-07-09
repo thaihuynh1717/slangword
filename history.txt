@@ -1704,3 +1704,12 @@ TBSS`Too Bad, So Sad
 V.V`Sad
 HAR`Sarcastic laugh
 HAR`Sarcastic laugh 1
+GG`Good Game
+GG`Good Game
+GGA`Good Game All
+GGBB`Good Game Bye Bye
+GGNORE`Good Game No Rematch
+GGS`Good Games
+GGWP`Good Game, Well Played
+VGG`Very Good Game
+vn`vietnam
