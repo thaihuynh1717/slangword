@@ -8,12 +8,23 @@ import java.util.Arrays;
 public class App extends JFrame {
     private JPanel appPanel;
     private JButton btnSearchSlang;
+    private JButton btnSearchDefinition;
+    private JButton btnShowHistory;
+    private JButton btnAddOne;
+    private JButton btnEditOne;
+    private JButton a6XóaMộtSlangButton;
+    private JButton a7KhôiPhụcDanhButton;
+    private JButton a8ChọnNgẫuNhiênButton;
+    private JButton a9ĐốVuiSlangButton;
+    private JButton a10ĐốVuiSlangButton;
+    private ArrayList<String> slangWord = new ArrayList<String>();
+    private ArrayList<ArrayList<String>> definition = new ArrayList<ArrayList<String>>();
 
     public App() {
+        btnSearchSlang.setSize(10, 100);
         btnSearchSlang.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
                 try {
                     String currentPath = new java.io.File(".").getCanonicalPath();
                     System.out.println(currentPath);
@@ -22,24 +33,21 @@ public class App extends JFrame {
                     String line = new String();
                     while ((line = reader.readLine()) != null) {
                         String[] result = line.split("`");
-//                        System.out.println(result);
-
                         if (result.length == 2) {
-                            String slangWord = result[0];
-                            ArrayList<String> definition = new ArrayList<String>();
+                            slangWord.add(result[0]);
+                            ArrayList<String> temp = new ArrayList<>();
                             Arrays.stream(result[1].split("\\|")).forEach(word -> {
                                 if (Arrays.asList(result).indexOf(word) != 0) {
-                                    definition.add(word);
-
+                                    temp.add(word);
                                 }
                             });
-                            System.out.println(slangWord + "-->" + definition);
+                            definition.add(temp);
+                            System.out.println(slangWord.get(slangWord.size() - 1) + "-->" + definition.get(definition.size() - 1));
                         }
                     }
                 } catch (Exception err) {
                     err.printStackTrace();
                 }
-
             }
         });
     }
